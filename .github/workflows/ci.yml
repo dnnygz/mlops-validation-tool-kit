@@ -20,7 +20,7 @@ jobs:
       - run: pip install -r requirements.txt
       - run: pytest -q
       - name: Run small end-to-end pipeline
-        run: python pipeline.py --rows 1000
+        run: python pipeline.py --rows 1000 --config configs/validation_strict.yaml
       - name: Upload validation evidence
         if: always()
         uses: actions/upload-artifact@v4
