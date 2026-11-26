@@ -1,0 +1,6 @@
+$schema: https://azuremlschemas.azureedge.net/latest/model.schema.json
+name: fraud-classifier
+path: azureml://datastores/mlmodels/paths/fraud-classifier/
+type: mlflow_model
+description: Modelo MLflow aprobado por el quality gate (ejemplo conceptual).
+

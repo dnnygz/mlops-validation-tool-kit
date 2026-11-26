@@ -1,0 +1,26 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.DS_Store
+data/
+artifacts/
+mlruns/
+mlflow.db
+# Secretos y credenciales locales 
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+service-account*.json
+# Bases locales adicionales y modelos serializados fuera de mlruns/.
+*.db
+*.sqlite
+*.sqlite3
+*.pkl
+*.joblib
+
